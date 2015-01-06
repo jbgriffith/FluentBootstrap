@@ -7,6 +7,7 @@
 <# Process(); #>
 <#+
 	readonly Regex regex = new Regex(@"^\.glyphicon-(.*)\:before \{$", RegexOptions.Compiled | RegexOptions.Multiline);
+	readonly Regex regexFA = new Regex(@"^\.(fa-.*)\:before \{$", RegexOptions.Compiled | RegexOptions.Multiline);
 	TextInfo textInfo = CultureInfo.InvariantCulture.TextInfo;
 
 	public void Process()
@@ -17,14 +18,27 @@
 		WriteLine("{");
 		WriteLine("\tpublic enum Icon");
 		WriteLine("\t{");
+
+		// Glyphicon
 		string css = System.IO.File.ReadAllText(Host.ResolvePath("..\\Content\\bootstrap.css"));
 		css = css.Replace("\r\n", "\n");
 		foreach (Match match in regex.Matches(css))
 		{
 			WriteLine("\t\t[Description(\"glyphicon-" + match.Groups[1].Value + "\")]");
-			WriteLine("\t\t" + String.Join(null, match.Groups[1].Value.Split(new char[]{'-'}, StringSplitOptions.RemoveEmptyEntries)
-				.Select(x => (char.IsDigit(x[0]) ? ("_" + x[0]) + x.Substring(1) : textInfo.ToTitleCase(x)) )) + ",");			
+			WriteLine("\t\tGi" + String.Join(null, match.Groups[1].Value.Split(new char[]{'-'}, StringSplitOptions.RemoveEmptyEntries)
+				.Select(x => (char.IsDigit(x[0]) ? ("_" + x[0]) + x.Substring(1) : textInfo.ToTitleCase(x)) )) + ",");
 		}
+
+		// Font Awesome
+		css = System.IO.File.ReadAllText(Host.ResolvePath("..\\Content\\font-awesome.css"));
+		css = css.Replace("\r\n", "\n");
+		foreach (Match match in regexFA.Matches(css))
+		{
+			WriteLine("\t\t[Description(\"" + match.Groups[1].Value + "\")]");
+			WriteLine("\t\tFa" + String.Join(null, match.Groups[1].Value.Split(new char[]{'-'}, StringSplitOptions.RemoveEmptyEntries)
+				.Select(x => (char.IsDigit(x[0]) ? ("_" + x[0]) + x.Substring(1) : textInfo.ToTitleCase(x)) )) + ",");
+		}
+
 		WriteLine("\t\t[Description(\"\")]");
 		WriteLine("\t\tNone");
 		WriteLine("\t}");

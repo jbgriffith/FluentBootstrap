@@ -1,8 +1,4 @@
-﻿
- 
-
-
-
+﻿ 
 using System.ComponentModel;
 
 namespace FluentBootstrap
@@ -10,407 +6,1364 @@ namespace FluentBootstrap
 	public enum Icon
 	{
 		[Description("glyphicon-asterisk")]
-		Asterisk,
+		GiAsterisk,
 		[Description("glyphicon-plus")]
-		Plus,
+		GiPlus,
 		[Description("glyphicon-eur")]
-		Eur,
+		GiEur,
 		[Description("glyphicon-minus")]
-		Minus,
+		GiMinus,
 		[Description("glyphicon-cloud")]
-		Cloud,
+		GiCloud,
 		[Description("glyphicon-envelope")]
-		Envelope,
+		GiEnvelope,
 		[Description("glyphicon-pencil")]
-		Pencil,
+		GiPencil,
 		[Description("glyphicon-glass")]
-		Glass,
+		GiGlass,
 		[Description("glyphicon-music")]
-		Music,
+		GiMusic,
 		[Description("glyphicon-search")]
-		Search,
+		GiSearch,
 		[Description("glyphicon-heart")]
-		Heart,
+		GiHeart,
 		[Description("glyphicon-star")]
-		Star,
+		GiStar,
 		[Description("glyphicon-star-empty")]
-		StarEmpty,
+		GiStarEmpty,
 		[Description("glyphicon-user")]
-		User,
+		GiUser,
 		[Description("glyphicon-film")]
-		Film,
+		GiFilm,
 		[Description("glyphicon-th-large")]
-		ThLarge,
+		GiThLarge,
 		[Description("glyphicon-th")]
-		Th,
+		GiTh,
 		[Description("glyphicon-th-list")]
-		ThList,
+		GiThList,
 		[Description("glyphicon-ok")]
-		Ok,
+		GiOk,
 		[Description("glyphicon-remove")]
-		Remove,
+		GiRemove,
 		[Description("glyphicon-zoom-in")]
-		ZoomIn,
+		GiZoomIn,
 		[Description("glyphicon-zoom-out")]
-		ZoomOut,
+		GiZoomOut,
 		[Description("glyphicon-off")]
-		Off,
+		GiOff,
 		[Description("glyphicon-signal")]
-		Signal,
+		GiSignal,
 		[Description("glyphicon-cog")]
-		Cog,
+		GiCog,
 		[Description("glyphicon-trash")]
-		Trash,
+		GiTrash,
 		[Description("glyphicon-home")]
-		Home,
+		GiHome,
 		[Description("glyphicon-file")]
-		File,
+		GiFile,
 		[Description("glyphicon-time")]
-		Time,
+		GiTime,
 		[Description("glyphicon-road")]
-		Road,
+		GiRoad,
 		[Description("glyphicon-download-alt")]
-		DownloadAlt,
+		GiDownloadAlt,
 		[Description("glyphicon-download")]
-		Download,
+		GiDownload,
 		[Description("glyphicon-upload")]
-		Upload,
+		GiUpload,
 		[Description("glyphicon-inbox")]
-		Inbox,
+		GiInbox,
 		[Description("glyphicon-play-circle")]
-		PlayCircle,
+		GiPlayCircle,
 		[Description("glyphicon-repeat")]
-		Repeat,
+		GiRepeat,
 		[Description("glyphicon-refresh")]
-		Refresh,
+		GiRefresh,
 		[Description("glyphicon-list-alt")]
-		ListAlt,
+		GiListAlt,
 		[Description("glyphicon-lock")]
-		Lock,
+		GiLock,
 		[Description("glyphicon-flag")]
-		Flag,
+		GiFlag,
 		[Description("glyphicon-headphones")]
-		Headphones,
+		GiHeadphones,
 		[Description("glyphicon-volume-off")]
-		VolumeOff,
+		GiVolumeOff,
 		[Description("glyphicon-volume-down")]
-		VolumeDown,
+		GiVolumeDown,
 		[Description("glyphicon-volume-up")]
-		VolumeUp,
+		GiVolumeUp,
 		[Description("glyphicon-qrcode")]
-		Qrcode,
+		GiQrcode,
 		[Description("glyphicon-barcode")]
-		Barcode,
+		GiBarcode,
 		[Description("glyphicon-tag")]
-		Tag,
+		GiTag,
 		[Description("glyphicon-tags")]
-		Tags,
+		GiTags,
 		[Description("glyphicon-book")]
-		Book,
+		GiBook,
 		[Description("glyphicon-bookmark")]
-		Bookmark,
+		GiBookmark,
 		[Description("glyphicon-print")]
-		Print,
+		GiPrint,
 		[Description("glyphicon-camera")]
-		Camera,
+		GiCamera,
 		[Description("glyphicon-font")]
-		Font,
+		GiFont,
 		[Description("glyphicon-bold")]
-		Bold,
+		GiBold,
 		[Description("glyphicon-italic")]
-		Italic,
+		GiItalic,
 		[Description("glyphicon-text-height")]
-		TextHeight,
+		GiTextHeight,
 		[Description("glyphicon-text-width")]
-		TextWidth,
+		GiTextWidth,
 		[Description("glyphicon-align-left")]
-		AlignLeft,
+		GiAlignLeft,
 		[Description("glyphicon-align-center")]
-		AlignCenter,
+		GiAlignCenter,
 		[Description("glyphicon-align-right")]
-		AlignRight,
+		GiAlignRight,
 		[Description("glyphicon-align-justify")]
-		AlignJustify,
+		GiAlignJustify,
 		[Description("glyphicon-list")]
-		List,
+		GiList,
 		[Description("glyphicon-indent-left")]
-		IndentLeft,
+		GiIndentLeft,
 		[Description("glyphicon-indent-right")]
-		IndentRight,
+		GiIndentRight,
 		[Description("glyphicon-facetime-video")]
-		FacetimeVideo,
+		GiFacetimeVideo,
 		[Description("glyphicon-picture")]
-		Picture,
+		GiPicture,
 		[Description("glyphicon-map-marker")]
-		MapMarker,
+		GiMapMarker,
 		[Description("glyphicon-adjust")]
-		Adjust,
+		GiAdjust,
 		[Description("glyphicon-tint")]
-		Tint,
+		GiTint,
 		[Description("glyphicon-edit")]
-		Edit,
+		GiEdit,
 		[Description("glyphicon-share")]
-		Share,
+		GiShare,
 		[Description("glyphicon-check")]
-		Check,
+		GiCheck,
 		[Description("glyphicon-move")]
-		Move,
+		GiMove,
 		[Description("glyphicon-step-backward")]
-		StepBackward,
+		GiStepBackward,
 		[Description("glyphicon-fast-backward")]
-		FastBackward,
+		GiFastBackward,
 		[Description("glyphicon-backward")]
-		Backward,
+		GiBackward,
 		[Description("glyphicon-play")]
-		Play,
+		GiPlay,
 		[Description("glyphicon-pause")]
-		Pause,
+		GiPause,
 		[Description("glyphicon-stop")]
-		Stop,
+		GiStop,
 		[Description("glyphicon-forward")]
-		Forward,
+		GiForward,
 		[Description("glyphicon-fast-forward")]
-		FastForward,
+		GiFastForward,
 		[Description("glyphicon-step-forward")]
-		StepForward,
+		GiStepForward,
 		[Description("glyphicon-eject")]
-		Eject,
+		GiEject,
 		[Description("glyphicon-chevron-left")]
-		ChevronLeft,
+		GiChevronLeft,
 		[Description("glyphicon-chevron-right")]
-		ChevronRight,
+		GiChevronRight,
 		[Description("glyphicon-plus-sign")]
-		PlusSign,
+		GiPlusSign,
 		[Description("glyphicon-minus-sign")]
-		MinusSign,
+		GiMinusSign,
 		[Description("glyphicon-remove-sign")]
-		RemoveSign,
+		GiRemoveSign,
 		[Description("glyphicon-ok-sign")]
-		OkSign,
+		GiOkSign,
 		[Description("glyphicon-question-sign")]
-		QuestionSign,
+		GiQuestionSign,
 		[Description("glyphicon-info-sign")]
-		InfoSign,
+		GiInfoSign,
 		[Description("glyphicon-screenshot")]
-		Screenshot,
+		GiScreenshot,
 		[Description("glyphicon-remove-circle")]
-		RemoveCircle,
+		GiRemoveCircle,
 		[Description("glyphicon-ok-circle")]
-		OkCircle,
+		GiOkCircle,
 		[Description("glyphicon-ban-circle")]
-		BanCircle,
+		GiBanCircle,
 		[Description("glyphicon-arrow-left")]
-		ArrowLeft,
+		GiArrowLeft,
 		[Description("glyphicon-arrow-right")]
-		ArrowRight,
+		GiArrowRight,
 		[Description("glyphicon-arrow-up")]
-		ArrowUp,
+		GiArrowUp,
 		[Description("glyphicon-arrow-down")]
-		ArrowDown,
+		GiArrowDown,
 		[Description("glyphicon-share-alt")]
-		ShareAlt,
+		GiShareAlt,
 		[Description("glyphicon-resize-full")]
-		ResizeFull,
+		GiResizeFull,
 		[Description("glyphicon-resize-small")]
-		ResizeSmall,
+		GiResizeSmall,
 		[Description("glyphicon-exclamation-sign")]
-		ExclamationSign,
+		GiExclamationSign,
 		[Description("glyphicon-gift")]
-		Gift,
+		GiGift,
 		[Description("glyphicon-leaf")]
-		Leaf,
+		GiLeaf,
 		[Description("glyphicon-fire")]
-		Fire,
+		GiFire,
 		[Description("glyphicon-eye-open")]
-		EyeOpen,
+		GiEyeOpen,
 		[Description("glyphicon-eye-close")]
-		EyeClose,
+		GiEyeClose,
 		[Description("glyphicon-warning-sign")]
-		WarningSign,
+		GiWarningSign,
 		[Description("glyphicon-plane")]
-		Plane,
+		GiPlane,
 		[Description("glyphicon-calendar")]
-		Calendar,
+		GiCalendar,
 		[Description("glyphicon-random")]
-		Random,
+		GiRandom,
 		[Description("glyphicon-comment")]
-		Comment,
+		GiComment,
 		[Description("glyphicon-magnet")]
-		Magnet,
+		GiMagnet,
 		[Description("glyphicon-chevron-up")]
-		ChevronUp,
+		GiChevronUp,
 		[Description("glyphicon-chevron-down")]
-		ChevronDown,
+		GiChevronDown,
 		[Description("glyphicon-retweet")]
-		Retweet,
+		GiRetweet,
 		[Description("glyphicon-shopping-cart")]
-		ShoppingCart,
+		GiShoppingCart,
 		[Description("glyphicon-folder-close")]
-		FolderClose,
+		GiFolderClose,
 		[Description("glyphicon-folder-open")]
-		FolderOpen,
+		GiFolderOpen,
 		[Description("glyphicon-resize-vertical")]
-		ResizeVertical,
+		GiResizeVertical,
 		[Description("glyphicon-resize-horizontal")]
-		ResizeHorizontal,
+		GiResizeHorizontal,
 		[Description("glyphicon-hdd")]
-		Hdd,
+		GiHdd,
 		[Description("glyphicon-bullhorn")]
-		Bullhorn,
+		GiBullhorn,
 		[Description("glyphicon-bell")]
-		Bell,
+		GiBell,
 		[Description("glyphicon-certificate")]
-		Certificate,
+		GiCertificate,
 		[Description("glyphicon-thumbs-up")]
-		ThumbsUp,
+		GiThumbsUp,
 		[Description("glyphicon-thumbs-down")]
-		ThumbsDown,
+		GiThumbsDown,
 		[Description("glyphicon-hand-right")]
-		HandRight,
+		GiHandRight,
 		[Description("glyphicon-hand-left")]
-		HandLeft,
+		GiHandLeft,
 		[Description("glyphicon-hand-up")]
-		HandUp,
+		GiHandUp,
 		[Description("glyphicon-hand-down")]
-		HandDown,
+		GiHandDown,
 		[Description("glyphicon-circle-arrow-right")]
-		CircleArrowRight,
+		GiCircleArrowRight,
 		[Description("glyphicon-circle-arrow-left")]
-		CircleArrowLeft,
+		GiCircleArrowLeft,
 		[Description("glyphicon-circle-arrow-up")]
-		CircleArrowUp,
+		GiCircleArrowUp,
 		[Description("glyphicon-circle-arrow-down")]
-		CircleArrowDown,
+		GiCircleArrowDown,
 		[Description("glyphicon-globe")]
-		Globe,
+		GiGlobe,
 		[Description("glyphicon-wrench")]
-		Wrench,
+		GiWrench,
 		[Description("glyphicon-tasks")]
-		Tasks,
+		GiTasks,
 		[Description("glyphicon-filter")]
-		Filter,
+		GiFilter,
 		[Description("glyphicon-briefcase")]
-		Briefcase,
+		GiBriefcase,
 		[Description("glyphicon-fullscreen")]
-		Fullscreen,
+		GiFullscreen,
 		[Description("glyphicon-dashboard")]
-		Dashboard,
+		GiDashboard,
 		[Description("glyphicon-paperclip")]
-		Paperclip,
+		GiPaperclip,
 		[Description("glyphicon-heart-empty")]
-		HeartEmpty,
+		GiHeartEmpty,
 		[Description("glyphicon-link")]
-		Link,
+		GiLink,
 		[Description("glyphicon-phone")]
-		Phone,
+		GiPhone,
 		[Description("glyphicon-pushpin")]
-		Pushpin,
+		GiPushpin,
 		[Description("glyphicon-usd")]
-		Usd,
+		GiUsd,
 		[Description("glyphicon-gbp")]
-		Gbp,
+		GiGbp,
 		[Description("glyphicon-sort")]
-		Sort,
+		GiSort,
 		[Description("glyphicon-sort-by-alphabet")]
-		SortByAlphabet,
+		GiSortByAlphabet,
 		[Description("glyphicon-sort-by-alphabet-alt")]
-		SortByAlphabetAlt,
+		GiSortByAlphabetAlt,
 		[Description("glyphicon-sort-by-order")]
-		SortByOrder,
+		GiSortByOrder,
 		[Description("glyphicon-sort-by-order-alt")]
-		SortByOrderAlt,
+		GiSortByOrderAlt,
 		[Description("glyphicon-sort-by-attributes")]
-		SortByAttributes,
+		GiSortByAttributes,
 		[Description("glyphicon-sort-by-attributes-alt")]
-		SortByAttributesAlt,
+		GiSortByAttributesAlt,
 		[Description("glyphicon-unchecked")]
-		Unchecked,
+		GiUnchecked,
 		[Description("glyphicon-expand")]
-		Expand,
+		GiExpand,
 		[Description("glyphicon-collapse-down")]
-		CollapseDown,
+		GiCollapseDown,
 		[Description("glyphicon-collapse-up")]
-		CollapseUp,
+		GiCollapseUp,
 		[Description("glyphicon-log-in")]
-		LogIn,
+		GiLogIn,
 		[Description("glyphicon-flash")]
-		Flash,
+		GiFlash,
 		[Description("glyphicon-log-out")]
-		LogOut,
+		GiLogOut,
 		[Description("glyphicon-new-window")]
-		NewWindow,
+		GiNewWindow,
 		[Description("glyphicon-record")]
-		Record,
+		GiRecord,
 		[Description("glyphicon-save")]
-		Save,
+		GiSave,
 		[Description("glyphicon-open")]
-		Open,
+		GiOpen,
 		[Description("glyphicon-saved")]
-		Saved,
+		GiSaved,
 		[Description("glyphicon-import")]
-		Import,
+		GiImport,
 		[Description("glyphicon-export")]
-		Export,
+		GiExport,
 		[Description("glyphicon-send")]
-		Send,
+		GiSend,
 		[Description("glyphicon-floppy-disk")]
-		FloppyDisk,
+		GiFloppyDisk,
 		[Description("glyphicon-floppy-saved")]
-		FloppySaved,
+		GiFloppySaved,
 		[Description("glyphicon-floppy-remove")]
-		FloppyRemove,
+		GiFloppyRemove,
 		[Description("glyphicon-floppy-save")]
-		FloppySave,
+		GiFloppySave,
 		[Description("glyphicon-floppy-open")]
-		FloppyOpen,
+		GiFloppyOpen,
 		[Description("glyphicon-credit-card")]
-		CreditCard,
+		GiCreditCard,
 		[Description("glyphicon-transfer")]
-		Transfer,
+		GiTransfer,
 		[Description("glyphicon-cutlery")]
-		Cutlery,
+		GiCutlery,
 		[Description("glyphicon-header")]
-		Header,
+		GiHeader,
 		[Description("glyphicon-compressed")]
-		Compressed,
+		GiCompressed,
 		[Description("glyphicon-earphone")]
-		Earphone,
+		GiEarphone,
 		[Description("glyphicon-phone-alt")]
-		PhoneAlt,
+		GiPhoneAlt,
 		[Description("glyphicon-tower")]
-		Tower,
+		GiTower,
 		[Description("glyphicon-stats")]
-		Stats,
+		GiStats,
 		[Description("glyphicon-sd-video")]
-		SdVideo,
+		GiSdVideo,
 		[Description("glyphicon-hd-video")]
-		HdVideo,
+		GiHdVideo,
 		[Description("glyphicon-subtitles")]
-		Subtitles,
+		GiSubtitles,
 		[Description("glyphicon-sound-stereo")]
-		SoundStereo,
+		GiSoundStereo,
 		[Description("glyphicon-sound-dolby")]
-		SoundDolby,
+		GiSoundDolby,
 		[Description("glyphicon-sound-5-1")]
-		Sound_5_1,
+		GiSound_5_1,
 		[Description("glyphicon-sound-6-1")]
-		Sound_6_1,
+		GiSound_6_1,
 		[Description("glyphicon-sound-7-1")]
-		Sound_7_1,
+		GiSound_7_1,
 		[Description("glyphicon-copyright-mark")]
-		CopyrightMark,
+		GiCopyrightMark,
 		[Description("glyphicon-registration-mark")]
-		RegistrationMark,
+		GiRegistrationMark,
 		[Description("glyphicon-cloud-download")]
-		CloudDownload,
+		GiCloudDownload,
 		[Description("glyphicon-cloud-upload")]
-		CloudUpload,
+		GiCloudUpload,
 		[Description("glyphicon-tree-conifer")]
-		TreeConifer,
+		GiTreeConifer,
 		[Description("glyphicon-tree-deciduous")]
-		TreeDeciduous,
+		GiTreeDeciduous,
+		[Description("fa-glass")]
+		FaFaGlass,
+		[Description("fa-music")]
+		FaFaMusic,
+		[Description("fa-search")]
+		FaFaSearch,
+		[Description("fa-envelope-o")]
+		FaFaEnvelopeO,
+		[Description("fa-heart")]
+		FaFaHeart,
+		[Description("fa-star")]
+		FaFaStar,
+		[Description("fa-star-o")]
+		FaFaStarO,
+		[Description("fa-user")]
+		FaFaUser,
+		[Description("fa-film")]
+		FaFaFilm,
+		[Description("fa-th-large")]
+		FaFaThLarge,
+		[Description("fa-th")]
+		FaFaTh,
+		[Description("fa-th-list")]
+		FaFaThList,
+		[Description("fa-check")]
+		FaFaCheck,
+		[Description("fa-times")]
+		FaFaTimes,
+		[Description("fa-search-plus")]
+		FaFaSearchPlus,
+		[Description("fa-search-minus")]
+		FaFaSearchMinus,
+		[Description("fa-power-off")]
+		FaFaPowerOff,
+		[Description("fa-signal")]
+		FaFaSignal,
+		[Description("fa-cog")]
+		FaFaCog,
+		[Description("fa-trash-o")]
+		FaFaTrashO,
+		[Description("fa-home")]
+		FaFaHome,
+		[Description("fa-file-o")]
+		FaFaFileO,
+		[Description("fa-clock-o")]
+		FaFaClockO,
+		[Description("fa-road")]
+		FaFaRoad,
+		[Description("fa-download")]
+		FaFaDownload,
+		[Description("fa-arrow-circle-o-down")]
+		FaFaArrowCircleODown,
+		[Description("fa-arrow-circle-o-up")]
+		FaFaArrowCircleOUp,
+		[Description("fa-inbox")]
+		FaFaInbox,
+		[Description("fa-play-circle-o")]
+		FaFaPlayCircleO,
+		[Description("fa-repeat")]
+		FaFaRepeat,
+		[Description("fa-refresh")]
+		FaFaRefresh,
+		[Description("fa-list-alt")]
+		FaFaListAlt,
+		[Description("fa-lock")]
+		FaFaLock,
+		[Description("fa-flag")]
+		FaFaFlag,
+		[Description("fa-headphones")]
+		FaFaHeadphones,
+		[Description("fa-volume-off")]
+		FaFaVolumeOff,
+		[Description("fa-volume-down")]
+		FaFaVolumeDown,
+		[Description("fa-volume-up")]
+		FaFaVolumeUp,
+		[Description("fa-qrcode")]
+		FaFaQrcode,
+		[Description("fa-barcode")]
+		FaFaBarcode,
+		[Description("fa-tag")]
+		FaFaTag,
+		[Description("fa-tags")]
+		FaFaTags,
+		[Description("fa-book")]
+		FaFaBook,
+		[Description("fa-bookmark")]
+		FaFaBookmark,
+		[Description("fa-print")]
+		FaFaPrint,
+		[Description("fa-camera")]
+		FaFaCamera,
+		[Description("fa-font")]
+		FaFaFont,
+		[Description("fa-bold")]
+		FaFaBold,
+		[Description("fa-italic")]
+		FaFaItalic,
+		[Description("fa-text-height")]
+		FaFaTextHeight,
+		[Description("fa-text-width")]
+		FaFaTextWidth,
+		[Description("fa-align-left")]
+		FaFaAlignLeft,
+		[Description("fa-align-center")]
+		FaFaAlignCenter,
+		[Description("fa-align-right")]
+		FaFaAlignRight,
+		[Description("fa-align-justify")]
+		FaFaAlignJustify,
+		[Description("fa-list")]
+		FaFaList,
+		[Description("fa-outdent")]
+		FaFaOutdent,
+		[Description("fa-indent")]
+		FaFaIndent,
+		[Description("fa-video-camera")]
+		FaFaVideoCamera,
+		[Description("fa-picture-o")]
+		FaFaPictureO,
+		[Description("fa-pencil")]
+		FaFaPencil,
+		[Description("fa-map-marker")]
+		FaFaMapMarker,
+		[Description("fa-adjust")]
+		FaFaAdjust,
+		[Description("fa-tint")]
+		FaFaTint,
+		[Description("fa-pencil-square-o")]
+		FaFaPencilSquareO,
+		[Description("fa-share-square-o")]
+		FaFaShareSquareO,
+		[Description("fa-check-square-o")]
+		FaFaCheckSquareO,
+		[Description("fa-arrows")]
+		FaFaArrows,
+		[Description("fa-step-backward")]
+		FaFaStepBackward,
+		[Description("fa-fast-backward")]
+		FaFaFastBackward,
+		[Description("fa-backward")]
+		FaFaBackward,
+		[Description("fa-play")]
+		FaFaPlay,
+		[Description("fa-pause")]
+		FaFaPause,
+		[Description("fa-stop")]
+		FaFaStop,
+		[Description("fa-forward")]
+		FaFaForward,
+		[Description("fa-fast-forward")]
+		FaFaFastForward,
+		[Description("fa-step-forward")]
+		FaFaStepForward,
+		[Description("fa-eject")]
+		FaFaEject,
+		[Description("fa-chevron-left")]
+		FaFaChevronLeft,
+		[Description("fa-chevron-right")]
+		FaFaChevronRight,
+		[Description("fa-plus-circle")]
+		FaFaPlusCircle,
+		[Description("fa-minus-circle")]
+		FaFaMinusCircle,
+		[Description("fa-times-circle")]
+		FaFaTimesCircle,
+		[Description("fa-check-circle")]
+		FaFaCheckCircle,
+		[Description("fa-question-circle")]
+		FaFaQuestionCircle,
+		[Description("fa-info-circle")]
+		FaFaInfoCircle,
+		[Description("fa-crosshairs")]
+		FaFaCrosshairs,
+		[Description("fa-times-circle-o")]
+		FaFaTimesCircleO,
+		[Description("fa-check-circle-o")]
+		FaFaCheckCircleO,
+		[Description("fa-ban")]
+		FaFaBan,
+		[Description("fa-arrow-left")]
+		FaFaArrowLeft,
+		[Description("fa-arrow-right")]
+		FaFaArrowRight,
+		[Description("fa-arrow-up")]
+		FaFaArrowUp,
+		[Description("fa-arrow-down")]
+		FaFaArrowDown,
+		[Description("fa-share")]
+		FaFaShare,
+		[Description("fa-expand")]
+		FaFaExpand,
+		[Description("fa-compress")]
+		FaFaCompress,
+		[Description("fa-plus")]
+		FaFaPlus,
+		[Description("fa-minus")]
+		FaFaMinus,
+		[Description("fa-asterisk")]
+		FaFaAsterisk,
+		[Description("fa-exclamation-circle")]
+		FaFaExclamationCircle,
+		[Description("fa-gift")]
+		FaFaGift,
+		[Description("fa-leaf")]
+		FaFaLeaf,
+		[Description("fa-fire")]
+		FaFaFire,
+		[Description("fa-eye")]
+		FaFaEye,
+		[Description("fa-eye-slash")]
+		FaFaEyeSlash,
+		[Description("fa-exclamation-triangle")]
+		FaFaExclamationTriangle,
+		[Description("fa-plane")]
+		FaFaPlane,
+		[Description("fa-calendar")]
+		FaFaCalendar,
+		[Description("fa-random")]
+		FaFaRandom,
+		[Description("fa-comment")]
+		FaFaComment,
+		[Description("fa-magnet")]
+		FaFaMagnet,
+		[Description("fa-chevron-up")]
+		FaFaChevronUp,
+		[Description("fa-chevron-down")]
+		FaFaChevronDown,
+		[Description("fa-retweet")]
+		FaFaRetweet,
+		[Description("fa-shopping-cart")]
+		FaFaShoppingCart,
+		[Description("fa-folder")]
+		FaFaFolder,
+		[Description("fa-folder-open")]
+		FaFaFolderOpen,
+		[Description("fa-arrows-v")]
+		FaFaArrowsV,
+		[Description("fa-arrows-h")]
+		FaFaArrowsH,
+		[Description("fa-bar-chart")]
+		FaFaBarChart,
+		[Description("fa-twitter-square")]
+		FaFaTwitterSquare,
+		[Description("fa-facebook-square")]
+		FaFaFacebookSquare,
+		[Description("fa-camera-retro")]
+		FaFaCameraRetro,
+		[Description("fa-key")]
+		FaFaKey,
+		[Description("fa-cogs")]
+		FaFaCogs,
+		[Description("fa-comments")]
+		FaFaComments,
+		[Description("fa-thumbs-o-up")]
+		FaFaThumbsOUp,
+		[Description("fa-thumbs-o-down")]
+		FaFaThumbsODown,
+		[Description("fa-star-half")]
+		FaFaStarHalf,
+		[Description("fa-heart-o")]
+		FaFaHeartO,
+		[Description("fa-sign-out")]
+		FaFaSignOut,
+		[Description("fa-linkedin-square")]
+		FaFaLinkedinSquare,
+		[Description("fa-thumb-tack")]
+		FaFaThumbTack,
+		[Description("fa-external-link")]
+		FaFaExternalLink,
+		[Description("fa-sign-in")]
+		FaFaSignIn,
+		[Description("fa-trophy")]
+		FaFaTrophy,
+		[Description("fa-github-square")]
+		FaFaGithubSquare,
+		[Description("fa-upload")]
+		FaFaUpload,
+		[Description("fa-lemon-o")]
+		FaFaLemonO,
+		[Description("fa-phone")]
+		FaFaPhone,
+		[Description("fa-square-o")]
+		FaFaSquareO,
+		[Description("fa-bookmark-o")]
+		FaFaBookmarkO,
+		[Description("fa-phone-square")]
+		FaFaPhoneSquare,
+		[Description("fa-twitter")]
+		FaFaTwitter,
+		[Description("fa-facebook")]
+		FaFaFacebook,
+		[Description("fa-github")]
+		FaFaGithub,
+		[Description("fa-unlock")]
+		FaFaUnlock,
+		[Description("fa-credit-card")]
+		FaFaCreditCard,
+		[Description("fa-rss")]
+		FaFaRss,
+		[Description("fa-hdd-o")]
+		FaFaHddO,
+		[Description("fa-bullhorn")]
+		FaFaBullhorn,
+		[Description("fa-bell")]
+		FaFaBell,
+		[Description("fa-certificate")]
+		FaFaCertificate,
+		[Description("fa-hand-o-right")]
+		FaFaHandORight,
+		[Description("fa-hand-o-left")]
+		FaFaHandOLeft,
+		[Description("fa-hand-o-up")]
+		FaFaHandOUp,
+		[Description("fa-hand-o-down")]
+		FaFaHandODown,
+		[Description("fa-arrow-circle-left")]
+		FaFaArrowCircleLeft,
+		[Description("fa-arrow-circle-right")]
+		FaFaArrowCircleRight,
+		[Description("fa-arrow-circle-up")]
+		FaFaArrowCircleUp,
+		[Description("fa-arrow-circle-down")]
+		FaFaArrowCircleDown,
+		[Description("fa-globe")]
+		FaFaGlobe,
+		[Description("fa-wrench")]
+		FaFaWrench,
+		[Description("fa-tasks")]
+		FaFaTasks,
+		[Description("fa-filter")]
+		FaFaFilter,
+		[Description("fa-briefcase")]
+		FaFaBriefcase,
+		[Description("fa-arrows-alt")]
+		FaFaArrowsAlt,
+		[Description("fa-users")]
+		FaFaUsers,
+		[Description("fa-link")]
+		FaFaLink,
+		[Description("fa-cloud")]
+		FaFaCloud,
+		[Description("fa-flask")]
+		FaFaFlask,
+		[Description("fa-scissors")]
+		FaFaScissors,
+		[Description("fa-files-o")]
+		FaFaFilesO,
+		[Description("fa-paperclip")]
+		FaFaPaperclip,
+		[Description("fa-floppy-o")]
+		FaFaFloppyO,
+		[Description("fa-square")]
+		FaFaSquare,
+		[Description("fa-bars")]
+		FaFaBars,
+		[Description("fa-list-ul")]
+		FaFaListUl,
+		[Description("fa-list-ol")]
+		FaFaListOl,
+		[Description("fa-strikethrough")]
+		FaFaStrikethrough,
+		[Description("fa-underline")]
+		FaFaUnderline,
+		[Description("fa-table")]
+		FaFaTable,
+		[Description("fa-magic")]
+		FaFaMagic,
+		[Description("fa-truck")]
+		FaFaTruck,
+		[Description("fa-pinterest")]
+		FaFaPinterest,
+		[Description("fa-pinterest-square")]
+		FaFaPinterestSquare,
+		[Description("fa-google-plus-square")]
+		FaFaGooglePlusSquare,
+		[Description("fa-google-plus")]
+		FaFaGooglePlus,
+		[Description("fa-money")]
+		FaFaMoney,
+		[Description("fa-caret-down")]
+		FaFaCaretDown,
+		[Description("fa-caret-up")]
+		FaFaCaretUp,
+		[Description("fa-caret-left")]
+		FaFaCaretLeft,
+		[Description("fa-caret-right")]
+		FaFaCaretRight,
+		[Description("fa-columns")]
+		FaFaColumns,
+		[Description("fa-sort")]
+		FaFaSort,
+		[Description("fa-sort-desc")]
+		FaFaSortDesc,
+		[Description("fa-sort-asc")]
+		FaFaSortAsc,
+		[Description("fa-envelope")]
+		FaFaEnvelope,
+		[Description("fa-linkedin")]
+		FaFaLinkedin,
+		[Description("fa-undo")]
+		FaFaUndo,
+		[Description("fa-gavel")]
+		FaFaGavel,
+		[Description("fa-tachometer")]
+		FaFaTachometer,
+		[Description("fa-comment-o")]
+		FaFaCommentO,
+		[Description("fa-comments-o")]
+		FaFaCommentsO,
+		[Description("fa-bolt")]
+		FaFaBolt,
+		[Description("fa-sitemap")]
+		FaFaSitemap,
+		[Description("fa-umbrella")]
+		FaFaUmbrella,
+		[Description("fa-clipboard")]
+		FaFaClipboard,
+		[Description("fa-lightbulb-o")]
+		FaFaLightbulbO,
+		[Description("fa-exchange")]
+		FaFaExchange,
+		[Description("fa-cloud-download")]
+		FaFaCloudDownload,
+		[Description("fa-cloud-upload")]
+		FaFaCloudUpload,
+		[Description("fa-user-md")]
+		FaFaUserMd,
+		[Description("fa-stethoscope")]
+		FaFaStethoscope,
+		[Description("fa-suitcase")]
+		FaFaSuitcase,
+		[Description("fa-bell-o")]
+		FaFaBellO,
+		[Description("fa-coffee")]
+		FaFaCoffee,
+		[Description("fa-cutlery")]
+		FaFaCutlery,
+		[Description("fa-file-text-o")]
+		FaFaFileTextO,
+		[Description("fa-building-o")]
+		FaFaBuildingO,
+		[Description("fa-hospital-o")]
+		FaFaHospitalO,
+		[Description("fa-ambulance")]
+		FaFaAmbulance,
+		[Description("fa-medkit")]
+		FaFaMedkit,
+		[Description("fa-fighter-jet")]
+		FaFaFighterJet,
+		[Description("fa-beer")]
+		FaFaBeer,
+		[Description("fa-h-square")]
+		FaFaHSquare,
+		[Description("fa-plus-square")]
+		FaFaPlusSquare,
+		[Description("fa-angle-double-left")]
+		FaFaAngleDoubleLeft,
+		[Description("fa-angle-double-right")]
+		FaFaAngleDoubleRight,
+		[Description("fa-angle-double-up")]
+		FaFaAngleDoubleUp,
+		[Description("fa-angle-double-down")]
+		FaFaAngleDoubleDown,
+		[Description("fa-angle-left")]
+		FaFaAngleLeft,
+		[Description("fa-angle-right")]
+		FaFaAngleRight,
+		[Description("fa-angle-up")]
+		FaFaAngleUp,
+		[Description("fa-angle-down")]
+		FaFaAngleDown,
+		[Description("fa-desktop")]
+		FaFaDesktop,
+		[Description("fa-laptop")]
+		FaFaLaptop,
+		[Description("fa-tablet")]
+		FaFaTablet,
+		[Description("fa-mobile")]
+		FaFaMobile,
+		[Description("fa-circle-o")]
+		FaFaCircleO,
+		[Description("fa-quote-left")]
+		FaFaQuoteLeft,
+		[Description("fa-quote-right")]
+		FaFaQuoteRight,
+		[Description("fa-spinner")]
+		FaFaSpinner,
+		[Description("fa-circle")]
+		FaFaCircle,
+		[Description("fa-reply")]
+		FaFaReply,
+		[Description("fa-github-alt")]
+		FaFaGithubAlt,
+		[Description("fa-folder-o")]
+		FaFaFolderO,
+		[Description("fa-folder-open-o")]
+		FaFaFolderOpenO,
+		[Description("fa-smile-o")]
+		FaFaSmileO,
+		[Description("fa-frown-o")]
+		FaFaFrownO,
+		[Description("fa-meh-o")]
+		FaFaMehO,
+		[Description("fa-gamepad")]
+		FaFaGamepad,
+		[Description("fa-keyboard-o")]
+		FaFaKeyboardO,
+		[Description("fa-flag-o")]
+		FaFaFlagO,
+		[Description("fa-flag-checkered")]
+		FaFaFlagCheckered,
+		[Description("fa-terminal")]
+		FaFaTerminal,
+		[Description("fa-code")]
+		FaFaCode,
+		[Description("fa-reply-all")]
+		FaFaReplyAll,
+		[Description("fa-star-half-o")]
+		FaFaStarHalfO,
+		[Description("fa-location-arrow")]
+		FaFaLocationArrow,
+		[Description("fa-crop")]
+		FaFaCrop,
+		[Description("fa-code-fork")]
+		FaFaCodeFork,
+		[Description("fa-chain-broken")]
+		FaFaChainBroken,
+		[Description("fa-question")]
+		FaFaQuestion,
+		[Description("fa-info")]
+		FaFaInfo,
+		[Description("fa-exclamation")]
+		FaFaExclamation,
+		[Description("fa-superscript")]
+		FaFaSuperscript,
+		[Description("fa-subscript")]
+		FaFaSubscript,
+		[Description("fa-eraser")]
+		FaFaEraser,
+		[Description("fa-puzzle-piece")]
+		FaFaPuzzlePiece,
+		[Description("fa-microphone")]
+		FaFaMicrophone,
+		[Description("fa-microphone-slash")]
+		FaFaMicrophoneSlash,
+		[Description("fa-shield")]
+		FaFaShield,
+		[Description("fa-calendar-o")]
+		FaFaCalendarO,
+		[Description("fa-fire-extinguisher")]
+		FaFaFireExtinguisher,
+		[Description("fa-rocket")]
+		FaFaRocket,
+		[Description("fa-maxcdn")]
+		FaFaMaxcdn,
+		[Description("fa-chevron-circle-left")]
+		FaFaChevronCircleLeft,
+		[Description("fa-chevron-circle-right")]
+		FaFaChevronCircleRight,
+		[Description("fa-chevron-circle-up")]
+		FaFaChevronCircleUp,
+		[Description("fa-chevron-circle-down")]
+		FaFaChevronCircleDown,
+		[Description("fa-html5")]
+		FaFaHtml5,
+		[Description("fa-css3")]
+		FaFaCss3,
+		[Description("fa-anchor")]
+		FaFaAnchor,
+		[Description("fa-unlock-alt")]
+		FaFaUnlockAlt,
+		[Description("fa-bullseye")]
+		FaFaBullseye,
+		[Description("fa-ellipsis-h")]
+		FaFaEllipsisH,
+		[Description("fa-ellipsis-v")]
+		FaFaEllipsisV,
+		[Description("fa-rss-square")]
+		FaFaRssSquare,
+		[Description("fa-play-circle")]
+		FaFaPlayCircle,
+		[Description("fa-ticket")]
+		FaFaTicket,
+		[Description("fa-minus-square")]
+		FaFaMinusSquare,
+		[Description("fa-minus-square-o")]
+		FaFaMinusSquareO,
+		[Description("fa-level-up")]
+		FaFaLevelUp,
+		[Description("fa-level-down")]
+		FaFaLevelDown,
+		[Description("fa-check-square")]
+		FaFaCheckSquare,
+		[Description("fa-pencil-square")]
+		FaFaPencilSquare,
+		[Description("fa-external-link-square")]
+		FaFaExternalLinkSquare,
+		[Description("fa-share-square")]
+		FaFaShareSquare,
+		[Description("fa-compass")]
+		FaFaCompass,
+		[Description("fa-caret-square-o-down")]
+		FaFaCaretSquareODown,
+		[Description("fa-caret-square-o-up")]
+		FaFaCaretSquareOUp,
+		[Description("fa-caret-square-o-right")]
+		FaFaCaretSquareORight,
+		[Description("fa-eur")]
+		FaFaEur,
+		[Description("fa-gbp")]
+		FaFaGbp,
+		[Description("fa-usd")]
+		FaFaUsd,
+		[Description("fa-inr")]
+		FaFaInr,
+		[Description("fa-jpy")]
+		FaFaJpy,
+		[Description("fa-rub")]
+		FaFaRub,
+		[Description("fa-krw")]
+		FaFaKrw,
+		[Description("fa-btc")]
+		FaFaBtc,
+		[Description("fa-file")]
+		FaFaFile,
+		[Description("fa-file-text")]
+		FaFaFileText,
+		[Description("fa-sort-alpha-asc")]
+		FaFaSortAlphaAsc,
+		[Description("fa-sort-alpha-desc")]
+		FaFaSortAlphaDesc,
+		[Description("fa-sort-amount-asc")]
+		FaFaSortAmountAsc,
+		[Description("fa-sort-amount-desc")]
+		FaFaSortAmountDesc,
+		[Description("fa-sort-numeric-asc")]
+		FaFaSortNumericAsc,
+		[Description("fa-sort-numeric-desc")]
+		FaFaSortNumericDesc,
+		[Description("fa-thumbs-up")]
+		FaFaThumbsUp,
+		[Description("fa-thumbs-down")]
+		FaFaThumbsDown,
+		[Description("fa-youtube-square")]
+		FaFaYoutubeSquare,
+		[Description("fa-youtube")]
+		FaFaYoutube,
+		[Description("fa-xing")]
+		FaFaXing,
+		[Description("fa-xing-square")]
+		FaFaXingSquare,
+		[Description("fa-youtube-play")]
+		FaFaYoutubePlay,
+		[Description("fa-dropbox")]
+		FaFaDropbox,
+		[Description("fa-stack-overflow")]
+		FaFaStackOverflow,
+		[Description("fa-instagram")]
+		FaFaInstagram,
+		[Description("fa-flickr")]
+		FaFaFlickr,
+		[Description("fa-adn")]
+		FaFaAdn,
+		[Description("fa-bitbucket")]
+		FaFaBitbucket,
+		[Description("fa-bitbucket-square")]
+		FaFaBitbucketSquare,
+		[Description("fa-tumblr")]
+		FaFaTumblr,
+		[Description("fa-tumblr-square")]
+		FaFaTumblrSquare,
+		[Description("fa-long-arrow-down")]
+		FaFaLongArrowDown,
+		[Description("fa-long-arrow-up")]
+		FaFaLongArrowUp,
+		[Description("fa-long-arrow-left")]
+		FaFaLongArrowLeft,
+		[Description("fa-long-arrow-right")]
+		FaFaLongArrowRight,
+		[Description("fa-apple")]
+		FaFaApple,
+		[Description("fa-windows")]
+		FaFaWindows,
+		[Description("fa-android")]
+		FaFaAndroid,
+		[Description("fa-linux")]
+		FaFaLinux,
+		[Description("fa-dribbble")]
+		FaFaDribbble,
+		[Description("fa-skype")]
+		FaFaSkype,
+		[Description("fa-foursquare")]
+		FaFaFoursquare,
+		[Description("fa-trello")]
+		FaFaTrello,
+		[Description("fa-female")]
+		FaFaFemale,
+		[Description("fa-male")]
+		FaFaMale,
+		[Description("fa-gittip")]
+		FaFaGittip,
+		[Description("fa-sun-o")]
+		FaFaSunO,
+		[Description("fa-moon-o")]
+		FaFaMoonO,
+		[Description("fa-archive")]
+		FaFaArchive,
+		[Description("fa-bug")]
+		FaFaBug,
+		[Description("fa-vk")]
+		FaFaVk,
+		[Description("fa-weibo")]
+		FaFaWeibo,
+		[Description("fa-renren")]
+		FaFaRenren,
+		[Description("fa-pagelines")]
+		FaFaPagelines,
+		[Description("fa-stack-exchange")]
+		FaFaStackExchange,
+		[Description("fa-arrow-circle-o-right")]
+		FaFaArrowCircleORight,
+		[Description("fa-arrow-circle-o-left")]
+		FaFaArrowCircleOLeft,
+		[Description("fa-caret-square-o-left")]
+		FaFaCaretSquareOLeft,
+		[Description("fa-dot-circle-o")]
+		FaFaDotCircleO,
+		[Description("fa-wheelchair")]
+		FaFaWheelchair,
+		[Description("fa-vimeo-square")]
+		FaFaVimeoSquare,
+		[Description("fa-try")]
+		FaFaTry,
+		[Description("fa-plus-square-o")]
+		FaFaPlusSquareO,
+		[Description("fa-space-shuttle")]
+		FaFaSpaceShuttle,
+		[Description("fa-slack")]
+		FaFaSlack,
+		[Description("fa-envelope-square")]
+		FaFaEnvelopeSquare,
+		[Description("fa-wordpress")]
+		FaFaWordpress,
+		[Description("fa-openid")]
+		FaFaOpenid,
+		[Description("fa-university")]
+		FaFaUniversity,
+		[Description("fa-graduation-cap")]
+		FaFaGraduationCap,
+		[Description("fa-yahoo")]
+		FaFaYahoo,
+		[Description("fa-google")]
+		FaFaGoogle,
+		[Description("fa-reddit")]
+		FaFaReddit,
+		[Description("fa-reddit-square")]
+		FaFaRedditSquare,
+		[Description("fa-stumbleupon-circle")]
+		FaFaStumbleuponCircle,
+		[Description("fa-stumbleupon")]
+		FaFaStumbleupon,
+		[Description("fa-delicious")]
+		FaFaDelicious,
+		[Description("fa-digg")]
+		FaFaDigg,
+		[Description("fa-pied-piper")]
+		FaFaPiedPiper,
+		[Description("fa-pied-piper-alt")]
+		FaFaPiedPiperAlt,
+		[Description("fa-drupal")]
+		FaFaDrupal,
+		[Description("fa-joomla")]
+		FaFaJoomla,
+		[Description("fa-language")]
+		FaFaLanguage,
+		[Description("fa-fax")]
+		FaFaFax,
+		[Description("fa-building")]
+		FaFaBuilding,
+		[Description("fa-child")]
+		FaFaChild,
+		[Description("fa-paw")]
+		FaFaPaw,
+		[Description("fa-spoon")]
+		FaFaSpoon,
+		[Description("fa-cube")]
+		FaFaCube,
+		[Description("fa-cubes")]
+		FaFaCubes,
+		[Description("fa-behance")]
+		FaFaBehance,
+		[Description("fa-behance-square")]
+		FaFaBehanceSquare,
+		[Description("fa-steam")]
+		FaFaSteam,
+		[Description("fa-steam-square")]
+		FaFaSteamSquare,
+		[Description("fa-recycle")]
+		FaFaRecycle,
+		[Description("fa-car")]
+		FaFaCar,
+		[Description("fa-taxi")]
+		FaFaTaxi,
+		[Description("fa-tree")]
+		FaFaTree,
+		[Description("fa-spotify")]
+		FaFaSpotify,
+		[Description("fa-deviantart")]
+		FaFaDeviantart,
+		[Description("fa-soundcloud")]
+		FaFaSoundcloud,
+		[Description("fa-database")]
+		FaFaDatabase,
+		[Description("fa-file-pdf-o")]
+		FaFaFilePdfO,
+		[Description("fa-file-word-o")]
+		FaFaFileWordO,
+		[Description("fa-file-excel-o")]
+		FaFaFileExcelO,
+		[Description("fa-file-powerpoint-o")]
+		FaFaFilePowerpointO,
+		[Description("fa-file-image-o")]
+		FaFaFileImageO,
+		[Description("fa-file-archive-o")]
+		FaFaFileArchiveO,
+		[Description("fa-file-audio-o")]
+		FaFaFileAudioO,
+		[Description("fa-file-video-o")]
+		FaFaFileVideoO,
+		[Description("fa-file-code-o")]
+		FaFaFileCodeO,
+		[Description("fa-vine")]
+		FaFaVine,
+		[Description("fa-codepen")]
+		FaFaCodepen,
+		[Description("fa-jsfiddle")]
+		FaFaJsfiddle,
+		[Description("fa-life-ring")]
+		FaFaLifeRing,
+		[Description("fa-circle-o-notch")]
+		FaFaCircleONotch,
+		[Description("fa-rebel")]
+		FaFaRebel,
+		[Description("fa-empire")]
+		FaFaEmpire,
+		[Description("fa-git-square")]
+		FaFaGitSquare,
+		[Description("fa-git")]
+		FaFaGit,
+		[Description("fa-hacker-news")]
+		FaFaHackerNews,
+		[Description("fa-tencent-weibo")]
+		FaFaTencentWeibo,
+		[Description("fa-qq")]
+		FaFaQq,
+		[Description("fa-weixin")]
+		FaFaWeixin,
+		[Description("fa-paper-plane")]
+		FaFaPaperPlane,
+		[Description("fa-paper-plane-o")]
+		FaFaPaperPlaneO,
+		[Description("fa-history")]
+		FaFaHistory,
+		[Description("fa-circle-thin")]
+		FaFaCircleThin,
+		[Description("fa-header")]
+		FaFaHeader,
+		[Description("fa-paragraph")]
+		FaFaParagraph,
+		[Description("fa-sliders")]
+		FaFaSliders,
+		[Description("fa-share-alt")]
+		FaFaShareAlt,
+		[Description("fa-share-alt-square")]
+		FaFaShareAltSquare,
+		[Description("fa-bomb")]
+		FaFaBomb,
+		[Description("fa-futbol-o")]
+		FaFaFutbolO,
+		[Description("fa-tty")]
+		FaFaTty,
+		[Description("fa-binoculars")]
+		FaFaBinoculars,
+		[Description("fa-plug")]
+		FaFaPlug,
+		[Description("fa-slideshare")]
+		FaFaSlideshare,
+		[Description("fa-twitch")]
+		FaFaTwitch,
+		[Description("fa-yelp")]
+		FaFaYelp,
+		[Description("fa-newspaper-o")]
+		FaFaNewspaperO,
+		[Description("fa-wifi")]
+		FaFaWifi,
+		[Description("fa-calculator")]
+		FaFaCalculator,
+		[Description("fa-paypal")]
+		FaFaPaypal,
+		[Description("fa-google-wallet")]
+		FaFaGoogleWallet,
+		[Description("fa-cc-visa")]
+		FaFaCcVisa,
+		[Description("fa-cc-mastercard")]
+		FaFaCcMastercard,
+		[Description("fa-cc-discover")]
+		FaFaCcDiscover,
+		[Description("fa-cc-amex")]
+		FaFaCcAmex,
+		[Description("fa-cc-paypal")]
+		FaFaCcPaypal,
+		[Description("fa-cc-stripe")]
+		FaFaCcStripe,
+		[Description("fa-bell-slash")]
+		FaFaBellSlash,
+		[Description("fa-bell-slash-o")]
+		FaFaBellSlashO,
+		[Description("fa-trash")]
+		FaFaTrash,
+		[Description("fa-copyright")]
+		FaFaCopyright,
+		[Description("fa-at")]
+		FaFaAt,
+		[Description("fa-eyedropper")]
+		FaFaEyedropper,
+		[Description("fa-paint-brush")]
+		FaFaPaintBrush,
+		[Description("fa-birthday-cake")]
+		FaFaBirthdayCake,
+		[Description("fa-area-chart")]
+		FaFaAreaChart,
+		[Description("fa-pie-chart")]
+		FaFaPieChart,
+		[Description("fa-line-chart")]
+		FaFaLineChart,
+		[Description("fa-lastfm")]
+		FaFaLastfm,
+		[Description("fa-lastfm-square")]
+		FaFaLastfmSquare,
+		[Description("fa-toggle-off")]
+		FaFaToggleOff,
+		[Description("fa-toggle-on")]
+		FaFaToggleOn,
+		[Description("fa-bicycle")]
+		FaFaBicycle,
+		[Description("fa-bus")]
+		FaFaBus,
+		[Description("fa-ioxhost")]
+		FaFaIoxhost,
+		[Description("fa-angellist")]
+		FaFaAngellist,
+		[Description("fa-cc")]
+		FaFaCc,
+		[Description("fa-ils")]
+		FaFaIls,
+		[Description("fa-meanpath")]
+		FaFaMeanpath,
 		[Description("")]
 		None
 	}
 }
-

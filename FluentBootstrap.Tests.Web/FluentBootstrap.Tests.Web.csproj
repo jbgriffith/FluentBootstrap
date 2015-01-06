@@ -98,6 +98,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -105,6 +108,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
@@ -133,27 +140,69 @@
     <Content Include="Views\Tests\Grids.cshtml" />
     <Content Include="Scripts\jquery-2.1.3.min.map" />
     <None Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Tests\Tags.cshtml" />
-    <Content Include="Views\Tests\Navs.cshtml" />
-    <Content Include="Views\Tests\Navbars.cshtml" />
-    <Content Include="Views\Tests\Breadcrumbs.cshtml" />
-    <Content Include="Views\Tests\Paginations.cshtml" />
-    <Content Include="Views\Tests\Pagers.cshtml" />
-    <Content Include="Views\Tests\Labels.cshtml" />
-    <Content Include="Views\Tests\Badges.cshtml" />
-    <Content Include="Views\Tests\Misc.cshtml" />
-    <Content Include="Views\Tests\Thumbnails.cshtml" />
-    <Content Include="Views\Tests\Alerts.cshtml" />
-    <Content Include="Views\Tests\ProgressBars.cshtml" />
-    <Content Include="Views\Tests\MediaObjects.cshtml" />
-    <Content Include="Views\Tests\ListGroups.cshtml" />
-    <Content Include="Views\Tests\Architecture.cshtml" />
-    <Content Include="Views\Tests\Tables.cshtml" />
-    <None Include="Views\Tests\Typography.cshtml" />
-    <None Include="Views\Tests\Buttons.cshtml" />
-    <None Include="Views\Tests\Dropdowns.cshtml" />
-    <None Include="Views\Tests\Forms.cshtml" />
-    <None Include="Views\Tests\Icons.cshtml" />
+    <Content Include="Views\Tests\Tags.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Navs.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Navbars.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Breadcrumbs.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Paginations.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Pagers.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Labels.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Badges.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Misc.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Thumbnails.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Alerts.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\ProgressBars.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\MediaObjects.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\ListGroups.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Architecture.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Tables.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <None Include="Views\Tests\Typography.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </None>
+    <Content Include="Views\Tests\Buttons.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <Content Include="Views\Tests\Dropdowns.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
+    <None Include="Views\Tests\Forms.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </None>
+    <Content Include="Views\Tests\Icons.cshtml">
+      <CustomToolNamespace>FluentBootstrap.Tests.Web.Views.Tests</CustomToolNamespace>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

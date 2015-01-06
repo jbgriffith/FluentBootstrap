@@ -1,11 +1,10 @@
-﻿@using (Html.Bootstrap().Container().Begin())
-{
+﻿@using (Html.Bootstrap().Container().Begin()) {
     @Html.Bootstrap().Heading1("Group")
     using (Html.Bootstrap().Div().SetId("test-group").Begin())
     {
         using (var group = Html.Bootstrap().ButtonGroup().Begin())
         {
-            @group.Button("A").SetIcon(Icon.Music)
+            @group.Button("A").SetIcon(Icon.GiMusic)
             @group.LinkButton("L")
             @group.Button("B").SetState(ButtonState.Success)
         }
@@ -27,7 +26,7 @@
             {
                 @group.Button("C")
                 @group.LinkButton("L", "#").SetState(ButtonState.Success)
-                @group.Button("D").SetIcon(Icon.ShareAlt)
+                @group.Button("D").SetIcon(Icon.GiShareAlt)
             }
         }
     }
@@ -41,17 +40,17 @@
         {
             @group.LinkButton("L")
             @group.Button("A")
-            @group.Button("B").SetIcon(Icon.Pencil)
+            @group.Button("B").SetIcon(Icon.GiPencil)
         }
         using (var group = Html.Bootstrap().ButtonGroup().SetSize(ButtonGroupSize.Sm).Begin())
         {
             @group.Button("C")
-            @group.LinkButton("L").SetIcon(Icon.Phone)
+            @group.LinkButton("L").SetIcon(Icon.GiPhone)
             @group.Button("D")
         }
         using (var group = Html.Bootstrap().ButtonGroup().SetSize(ButtonGroupSize.Xs).Begin())
         {
-            @group.Button("E").SetIcon(Icon.Tags)
+            @group.Button("E").SetIcon(Icon.GiTags)
             @group.Button("F")
             @group.LinkButton("L")
         }
